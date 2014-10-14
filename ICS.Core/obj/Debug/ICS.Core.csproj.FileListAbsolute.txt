@@ -1,0 +1,10 @@
+D:\TAGroup\ICS\ICS.Core\bin\Debug\ICS.Core.dll.config
+D:\TAGroup\ICS\ICS.Core\bin\Debug\ICS.Core.dll
+D:\TAGroup\ICS\ICS.Core\bin\Debug\ICS.Core.pdb
+D:\TAGroup\ICS\ICS.Core\bin\Debug\EntityFramework.dll
+D:\TAGroup\ICS\ICS.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\TAGroup\ICS\ICS.Core\bin\Debug\EntityFramework.xml
+D:\TAGroup\ICS\ICS.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\TAGroup\ICS\ICS.Core\obj\Debug\ICS.Core.csprojResolveAssemblyReference.cache
+D:\TAGroup\ICS\ICS.Core\obj\Debug\ICS.Core.dll
+D:\TAGroup\ICS\ICS.Core\obj\Debug\ICS.Core.pdb
