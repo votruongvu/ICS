@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 
 namespace ICS.Domain.Model
 {
-    public class User: IEntity<Guid>
+    public class User: IEntity
     {
+        [Key]
+        public Guid Key { get; set; }
+
         [Required]
         public string Name { get; set; }
         public string Email { get; set; }

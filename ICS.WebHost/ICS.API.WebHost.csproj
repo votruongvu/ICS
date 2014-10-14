@@ -14,7 +14,7 @@
     <RootNamespace>ICS.WebHost</RootNamespace>
     <AssemblyName>ICS.WebHost</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -90,7 +90,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -102,6 +104,10 @@
     <ProjectReference Include="..\ICS.API\ICS.API.csproj">
       <Project>{eb7ed768-37ce-4695-81b9-eef8193b2a1b}</Project>
       <Name>ICS.API</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ICS.Domain\ICS.Domain.csproj">
+      <Project>{2756ab15-240a-46a5-85ce-f81f51a3e9ac}</Project>
+      <Name>ICS.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
@@ -119,7 +125,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>27982</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:27982/</IISUrl>
+          <IISUrl>http://localhost/ICS.API.WebHost</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

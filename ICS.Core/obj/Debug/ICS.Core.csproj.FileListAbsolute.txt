@@ -8,3 +8,13 @@ D:\TAGroup\ICS\ICS.Core\bin\Debug\EntityFramework.SqlServer.xml
 D:\TAGroup\ICS\ICS.Core\obj\Debug\ICS.Core.csprojResolveAssemblyReference.cache
 D:\TAGroup\ICS\ICS.Core\obj\Debug\ICS.Core.dll
 D:\TAGroup\ICS\ICS.Core\obj\Debug\ICS.Core.pdb
+F:\DG3TA\ICS\ICS.Core\bin\Debug\ICS.Core.dll.config
+F:\DG3TA\ICS\ICS.Core\bin\Debug\ICS.Core.dll
+F:\DG3TA\ICS\ICS.Core\bin\Debug\ICS.Core.pdb
+F:\DG3TA\ICS\ICS.Core\bin\Debug\EntityFramework.dll
+F:\DG3TA\ICS\ICS.Core\bin\Debug\EntityFramework.SqlServer.dll
+F:\DG3TA\ICS\ICS.Core\bin\Debug\EntityFramework.xml
+F:\DG3TA\ICS\ICS.Core\bin\Debug\EntityFramework.SqlServer.xml
+F:\DG3TA\ICS\ICS.Core\obj\Debug\ICS.Core.csprojResolveAssemblyReference.cache
+F:\DG3TA\ICS\ICS.Core\obj\Debug\ICS.Core.dll
+F:\DG3TA\ICS\ICS.Core\obj\Debug\ICS.Core.pdb

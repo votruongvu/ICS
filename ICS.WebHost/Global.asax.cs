@@ -6,6 +6,7 @@ using System.Web.Http;
 using System.Web.Security;
 using System.Web.SessionState;
 using ICS.API.Config;
+using ICS.Domain.Config;
 
 namespace ICS.WebHost
 {
@@ -14,10 +15,11 @@ namespace ICS.WebHost
 
         protected void Application_Start(object sender, EventArgs e)
         {
-            var config = GlobalConfiguration.Configuration;
+            var config = GlobalConfiguration.Configuration;            
             RouteConfig.RegisterRoutes(config);
             WebApiConfig.Configure(config);
-            AutofacWebApiConfig.Initialize(config);            
+            AutofacWebApiConfig.Initialize(config);
+            EFConfig.Initialize();
         }
 
         protected void Session_Start(object sender, EventArgs e)

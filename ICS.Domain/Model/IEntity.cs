@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace ICS.Domain.Model
 {
-    public abstract class IEntity<Tkey>
+    public interface IEntity
     {
         [Key]
-        public Tkey Id { get; set; }
+        Guid Key { get; set; }
     }
 }

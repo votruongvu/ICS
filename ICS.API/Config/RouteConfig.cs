@@ -10,7 +10,7 @@ namespace ICS.API.Config
     {
         public static void RegisterRoutes(System.Web.Http.HttpConfiguration config)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
     }
 }

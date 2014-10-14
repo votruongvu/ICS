@@ -47,8 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\IDBContext.cs" />
-    <Compile Include="Data\IRepository.cs" />
+    <Compile Include="Data\IQueryableExtensions.cs" />
     <Compile Include="Data\IUnitOfWork.cs" />
+    <Compile Include="Data\PaginatedList.cs" />
     <Compile Include="Data\UnitofWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 
 namespace ICS.Domain.Model
 {
-    public class Role
+    public class Role: IEntity
     {
+        [Key]
+        public Guid Key { get; set; }
+
         [Required]
         public string Name { get; set; }
 
@@ -16,7 +19,6 @@ namespace ICS.Domain.Model
 
         public Role()
         {
-
             UserInRoles = new HashSet<UserInRole>();
         }
     }

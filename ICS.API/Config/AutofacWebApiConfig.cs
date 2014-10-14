@@ -1,7 +1,11 @@
 ﻿using Autofac;
 using Autofac.Integration.WebApi;
+using ICS.Core.Data;
+using ICS.Domain.Data;
+using ICS.Domain.Repository;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -31,8 +35,13 @@ namespace ICS.API.Config
         {
 
             builder.RegisterApiControllers(Assembly.GetExecutingAssembly());
+            
+            //EF DbContext
+            builder.RegisterType<ICSDbContext>().As<DbContext>().InstancePerRequest();                        
+            //Repositories
+            builder.RegisterGeneric(typeof(EntityRepository<>)).As(typeof(IEntityRepository<>)).InstancePerRequest();
+            //Services            
 
-            // registration goes here
 
             return builder.Build();
         }
